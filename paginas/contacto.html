@@ -14,21 +14,34 @@
         <div class="container">
             <nav class="navbar navbar-expand-lg bg-light">
               <div class="container-fluid">
-                <div class="square" data-mdb-toggle="animation" data-mdb-animation-start="onHover" data-mdb-animation="zoom-in" data-mdb-animation-reset="true" style="animation-duration: 500ms;">
-                    <a class="navbar-brand" href="../index.html">Burgbomb</a>
+                <div class="badge bg-primary text-wrap" style="width: 7rem;">
+                  <a class="navbar-brand" href="../index.html">Burgbomb</a>
                 </div>
                 <ul class="nav justify-content-end">
                     <li class="nav-item">
-                      <a class="nav-link" aria-current="page" href="paginas/menu">Menu</a>
+                      <a class="nav-link" href="menu.html">Menu</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="paginas/contacto.html">Contacto</a>
+                      <a class="nav-link" href="contacto.html">Contacto</a>
                     </li>
                   </ul>
               </div>
             </nav>
             <div class="row">
-
+              <div class="col-lg-12">
+                <br>
+                <label for="exampleFormControlInput1" class="form-label">Email</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre@ejemplo.com">
+              </div>
+              <div class="col-lg-12">
+                <br>
+                <label for="exampleFormControlTextarea1" class="form-label">Deja tu consulta</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Hola, como estas?"></textarea>
+              </div>
+              <div class="col-lg-12">
+                <br>
+                <button type="button" class="btn btn-outline-primary">Enviar</button>
+              </div>
             </div>
         </div>
     </main>

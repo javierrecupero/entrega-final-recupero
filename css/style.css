@@ -1,0 +1,92 @@
+.navbar{
+  background:#222222;
+}
+.nav-item::after{
+  content:'';
+	display:block;
+  width:0px;
+  height:2px;
+  background: var(--bs-nav-link-color);
+  transition: 0.2s;
+}
+.nav-item:hover::after{
+  width:100%;
+}
+.navbar-dark .navbar-nav .active > .nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show > .nav-link,.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover{
+  color: var(--bs-nav-link-color);
+}
+.nav-link{
+  padding:15px 5px;
+	transition:0.2s;
+}
+.title-menu-container:after,.title-menu-container:before{
+	content:"";
+	display:table;
+	clear:both
+}
+.title-menu-container{
+	padding:0.01em 16px
+}
+.title-menu-center{
+	text-align:center!important;
+	text-align:center;
+	display:inline-block;
+	width:auto;
+}
+.title-menu-animate-right{position:relative;animation:animateright 0.4s}@keyframes animateright{from{right:-300px;opacity:0} to{right:0;opacity:1}}
+.image-card {
+	display: inline-block;
+	box-sizing: border-box;
+	margin: 6rem;
+	width: 240px;
+	height: 320px;
+	padding: 8px;
+	border-radius: 1rem;
+	background: url("../images/burger11.jpg");
+	box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+  }
+
+  .image-card-2 {
+	display: inline-block;
+	box-sizing: border-box;
+	margin: 6rem;
+	width: 240px;
+	height: 320px;
+	padding: 8px;
+	border-radius: 1rem;
+	background: url("../images/burger12.jpg");
+	box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+  }
+
+  .image-card-3 {
+	display: inline-block;
+	box-sizing: border-box;
+	margin: 6rem;
+	width: 240px;
+	height: 320px;
+	padding: 8px;
+	border-radius: 1rem;
+	background: url("../images/burger13.jpg");
+	box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+  }
+  
+  .perspective-left {
+	transform: perspective(1500px) rotateY(15deg);
+	transition: transform 1s ease 0s;
+  }
+  
+  .perspective-left:hover {
+	transform: perspective(3000px) rotateY(5deg);
+  }
+
+  .perspective-right {
+	transform: perspective(1500px) rotateY(-15deg);
+	transition: transform 1s ease 0s;
+  }
+  
+  .perspective-right:hover {
+	transform: perspective(3000px) rotateY(-5deg);
+  }
+  .space-between-card{
+	margin-bottom: 15px;
+  }
