@@ -1,0 +1,35 @@
+.image-card {
+	display: inline-block;
+	box-sizing: border-box;
+	margin: 6rem;
+	width: 240px;
+	height: 320px;
+	padding: 8px;
+	border-radius: 1rem;
+	background: url("../images/burger11.jpg");
+	box-shadow: $color-box-shadow;
+    }
+
+    .image-card-2 {
+        display: inline-block;
+        box-sizing: border-box;
+        margin: 6rem;
+        width: 240px;
+        height: 320px;
+        padding: 8px;
+        border-radius: 1rem;
+        background: url("../images/burger12.jpg");
+        box-shadow: $color-box-shadow;
+    }
+
+    .image-card-3 {
+        display: inline-block;
+        box-sizing: border-box;
+        margin: 6rem;
+        width: 240px;
+        height: 320px;
+        padding: 8px;
+        border-radius: 1rem;
+        background: url("../images/burger13.jpg");
+        box-shadow: $color-box-shadow;
+    }
