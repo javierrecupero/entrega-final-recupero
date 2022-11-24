@@ -102,3 +102,25 @@
 	.separation-form{
 		margin-top: 10px;
 	}
+	.navbar-burgbomb{
+		--bs-nav-link-padding-x: 0;
+		--bs-nav-link-padding-y: 0.5rem;
+		--bs-nav-link-font-weight: ;
+		--bs-nav-link-color: var(--bs-navbar-color);
+		--bs-nav-link-hover-color: var(--bs-navbar-hover-color);
+		--bs-nav-link-disabled-color: var(--bs-navbar-disabled-color);
+		display: flex;
+		flex-direction: initial;
+		padding-left: 0;
+		margin-bottom: 0;
+		list-style: none;
+	}
+
+	@media only screen 
+    and (device-width : 414px) 
+    and (device-height : 896px) 
+    and (-webkit-device-pixel-ratio : 2) { 
+		.response-nav-mobile{
+			padding-left: 15px;
+		}
+	}

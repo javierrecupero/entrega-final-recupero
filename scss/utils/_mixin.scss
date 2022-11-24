@@ -1,0 +1,10 @@
+@mixin card-image {
+	display: inline-block;
+	box-sizing: border-box;
+	margin: 6rem;
+	width: 240px;
+	height: 320px;
+	padding: 8px;
+	border-radius: 1rem;
+	box-shadow: $color-box-shadow;
+}
